@@ -15,7 +15,7 @@
 	
 	<groupId>com.fantasi</groupId>
 	<artifactId>${project.name}</artifactId>
-	<version>1.2.4-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<scm>  
 	  <url>${git}</url>	
       <connection>scm:git:${git}</connection>  
