@@ -10,17 +10,16 @@
 	<parent>
 		<groupId>com.fantasi</groupId>
 		<artifactId>xdnphb-github-xc-pom</artifactId>
-		<version>0.0.4</version>
+		<version>0.0.5</version>
 	</parent>
 	
 	<groupId>com.fantasi</groupId>
 	<artifactId>${project.name}</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<scm>  
 	  <url>${git}</url>	
       <connection>scm:git:${git}</connection>  
       <developerConnection>scm:git:${git}</developerConnection>  
-      <tag>xdnphb-github-xc-0.0.1</tag>
-  </scm>
+    </scm>
 	
 </project>
