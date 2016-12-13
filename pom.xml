@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<properties>
+		<java.version>1.8</java.version>
+		<project.name>xdnphb-github-xc</project.name>
+	</properties>
+	
+	<parent>
+		<groupId>com.fantasi</groupId>
+		<artifactId>xdnphb-github-xc-pom</artifactId>
+		<version>0.0.4</version>
+	</parent>
+	
+	<groupId>com.fantasi</groupId>
+	<artifactId>${project.name}</artifactId>
+	<version>1.2.4-SNAPSHOT</version>
+	
+	<scm>  
+	  <url>${gitHub.url}/xdnphb-github-xc/tree/0.1</url>	
+      <connection>scm:git:${scm.url}/xdnphb-github-xc/tree/0.1</connection>  
+      <developerConnection>scm:git:${scm.url}/xdnphb-github-xc-pom/tree/0.1</developerConnection>  
+    </scm>
+	
+</project>
